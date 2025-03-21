@@ -1,0 +1,15 @@
+{
+    "name": "Extension de notas",
+    "description": "Exstension hecha con flutter para crear notas sencillas",
+    "version": "1.0.0",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "/icons/Icon-192.png"
+    },
+    "manifest_version": 3,
+    "host_permissions": ["<all_urls>"]
+
+}
